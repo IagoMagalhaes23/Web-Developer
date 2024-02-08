@@ -11,3 +11,6 @@ Página de Sign In e Sign Up construída em HTML, CSS e JavaScript.
 
 ## Resultado
 ![image](https://github.com/IagoMagalhaes23/Web-Developer/assets/65053026/30aa7a4f-9e1c-4785-a067-cfca6c40a02c)
+
+## Projeto original
+- https://youtu.be/PlpM2LJWu-s?si=cQv71UUJqe5sycu9
