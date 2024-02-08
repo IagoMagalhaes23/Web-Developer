@@ -1,7 +1,7 @@
-# Animated Login Page
+# Login Form in HTML and CSS
 
 ## Apresentação
-Página de Sign In construída em HTML e CSS.
+Página de Login construída em HTML e CSS.
 
 ## Tecnologias
 - HTML
@@ -9,7 +9,7 @@ Página de Sign In construída em HTML e CSS.
 - Font Awesome
 
 ## Resultado
-![image](https://github.com/IagoMagalhaes23/Web-Developer/assets/65053026/30aa7a4f-9e1c-4785-a067-cfca6c40a02c)
+![image](https://github.com/IagoMagalhaes23/Web-Developer/assets/65053026/b6176aae-0272-40f8-be9a-42fc85e091b3)
 
 ## Projeto original
 - https://youtu.be/hlwlM4a5rxg?si=PuiEMOCr3XPE-3NU
