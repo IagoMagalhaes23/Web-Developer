@@ -29,6 +29,7 @@ body{
     position: relative;
     width: 100%;
     max-width: 500px;
+    transition: 0.5s;
 }
 
 .blue-section{
