@@ -17,6 +17,8 @@ body{
     width: 90%;
     max-width: 600px;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .notification{
@@ -24,14 +26,20 @@ body{
     padding: 1.5rem;
     background: #fff;
     box-shadow: 0 1rem 1rem #e6e6f2;
-    position: absolute;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
 }
 
 .blue-section{
     background: #e9eaff;
+    position: absolute;
+    top: -45%;
+    left: -15%;
     border-radius: 2rem;
     width: 300px;
     height: 200px;
+    z-index: -1;
 }
 
 .icon-tabler-bell{
@@ -44,13 +52,85 @@ body{
     top: -3.5rem;
     cursor: pointer;
     transition: 0.5s;
+    border: 1px solid transparent;
+}
+
+.icon-tabler-bell:hover{
+    background: #fff;
+    color: #0d0e43;
+    border-color: #0d0e43;
+}
+
+h2{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+h3{
+    font-size: 1rem;
+    margin: 0.8rem o;
+}
+
+p{
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.info{
+    display: flex;
+    gap: 1rem;
 }
 
 .icon-tabler-mail{
     background: #ffe8f3;
     color: #ce4173;
-    padding: 0.25rem;
+    padding: 1rem;
     border-radius: 0.25rem;
+    min-width: 70px;
+}
+
+.buttons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+button{
+    background: #fff;
+    border-radius: 2rem;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.35rem 0.8rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.twitter{
+    border-color: #1287BB;
+    color: #1287BB;
+    margin-left: -5rem;
+}
+
+.twitter:hover{
+    background: #1287BB;
+    color: #fff;
+}
+
+.twitter:hover .icon-tabler-brand-twitter, .facebook:hover .icon-tabler-brand-facebook{
+    color: #fff;
+}
+
+.facebook{
+    border-color: #3963a3;
+    color: #3963a3;
+}
+
+.facebook:hover{
+    background: #0d0e43;
+    color: #fff;
 }
 
 .icon-tabler-brand-twitter{
@@ -59,4 +139,10 @@ body{
 
 .icon-tabler-brand-facebook{
     color: #3963a3;
+}
+
+@media (max-width: 350px){
+    .twitter{
+        margin-left: unset;
+    }
 }
