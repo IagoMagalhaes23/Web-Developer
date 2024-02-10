@@ -11,6 +11,7 @@ body{
     align-items: center;
     background: #f5f6ff;
     color: #0d0e43;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .notification-container{
@@ -47,7 +48,7 @@ body{
     border-radius: 50%;
     background: #0d0e43;
     color: #fff;
-    padding: 0.25rem;
+    padding: 0.5rem;
     position: absolute;
     right: 0;
     top: -3.5rem;
@@ -107,6 +108,7 @@ button{
     padding: 0.35rem 0.8rem;
     cursor: pointer;
     transition: 0.5s;
+    font-size: 0.8rem;
 }
 
 .twitter{
