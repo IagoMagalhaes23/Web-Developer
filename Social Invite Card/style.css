@@ -1,0 +1,70 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #5d3f99, #140033);
+}
+
+.invite-card{
+    width: 90%;
+    max-width: 400px;
+    background: #140033;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 3rem;
+    filter: drop-shadow(0 0 3rem #601ad0);
+}
+
+img{
+    border-radius: 50%;
+    border: 5px solid #5d3f99af;
+}
+
+img + p{
+    font-size: 0.7rem;
+    margin: 1rem 0;
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.8rem;
+    margin: 1rem 0;
+    border-radius: 0.25rem;
+    background: #9387ff2d;
+    padding: 0.5rem;
+}
+
+.dot{
+    border-radius: 50%;
+    background: #fff;
+    width: 0.25rem;
+    height: 0.25rem;
+}
+
+form{
+    width: 100%;
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+}
+
+input[type="text"]{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border-radius: 0.25rem;
+    outline: none;
+    border: none;
+}
