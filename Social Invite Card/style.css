@@ -35,6 +35,10 @@ img + p{
     margin: 1rem 0;
 }
 
+h2{
+    text-align: center;
+}
+
 .stats{
     display: flex;
     align-items: center;
@@ -67,4 +71,48 @@ input[type="text"]{
     border-radius: 0.25rem;
     outline: none;
     border: none;
+}
+
+.checkbox{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.checkbox label{
+    margin-top: 0.25rem;
+}
+
+input[type="checkbox"]{
+    border: none;
+    border-radius: 0.25rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+::placeholder{
+    color: #140033;
+}
+
+button{
+    width: 100%;
+    color: #fff;
+    background: #6d12ff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.8rem;
+    margin: 1.5rem 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    filter: drop-shadow(0 0 1rem #6d12ff);
+}
+
+a {
+    color: #601ad0;
+}
+
+a:last-of-type{
+    font-size: 0.7rem;
 }
